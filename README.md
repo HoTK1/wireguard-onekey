@@ -1,7 +1,7 @@
 # Fork by xubiaolin/wireguard-onekey
 
-# Wireguard Easy
-该项目可以帮助您在Docker中启动Wireguard VPN服务器，并提供简单的脚本来配置服务器参数。
+
+# 个人修改自用
 
 
 # 安装要求
