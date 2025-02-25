@@ -60,9 +60,9 @@ docker run -d \
     --name=wg-easy \
     -e WG_HOST=$ipv4 \
     -e PASSWORD=$PASSWORD \
-    -e WG_DEFAULT_ADDRESS=10.0.8.x \
+    -e WG_DEFAULT_ADDRESS=10.0.0.x \
     -e WG_DEFAULT_DNS=223.5.5.5,223.6.6.6 \
-    -e WG_ALLOWED_IPS=10.0.8.0/24 \
+    -e WG_ALLOWED_IPS=10.0.0.0/24 \
     -e WG_PERSISTENT_KEEPALIVE=25 -v $(pwd)/data/etc/wireguard:/etc/wireguard \
     -e WG_PORT=$TCP_PORT\
     -p $TCP_PORT:51820/udp \
